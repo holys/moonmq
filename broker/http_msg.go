@@ -22,9 +22,7 @@ func newMsgHandler(app *App) *MsgHandler {
 
 func (h *MsgHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
-	case "POST":
-		h.publishMsg(w, r)
-	case "PUT":
+	case "POST", "PUT":
 		h.publishMsg(w, r)
 	case "GET":
 		h.getMsg(w, r)
