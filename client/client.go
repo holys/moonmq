@@ -3,8 +3,9 @@ package client
 import (
 	"container/list"
 	"encoding/json"
-	"github.com/siddontang/moonmq/proto"
 	"sync"
+
+	"github.com/siddontang/moonmq/proto"
 )
 
 type Client struct {

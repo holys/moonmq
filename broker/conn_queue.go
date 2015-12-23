@@ -2,9 +2,10 @@ package broker
 
 import (
 	"fmt"
-	"github.com/siddontang/moonmq/proto"
 	"net/http"
 	"strconv"
+
+	"github.com/siddontang/moonmq/proto"
 )
 
 func checkBind(queue string, routingKey string) error {

@@ -2,10 +2,11 @@ package broker
 
 import (
 	"fmt"
-	"github.com/siddontang/moonmq/proto"
 	"net/http"
 	"strconv"
 	"strings"
+
+	"github.com/siddontang/moonmq/proto"
 )
 
 func checkPublish(queue string, routingKey string, tp string, message []byte) error {

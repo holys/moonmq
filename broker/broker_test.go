@@ -3,12 +3,13 @@ package broker
 import (
 	"bytes"
 	"fmt"
-	"github.com/siddontang/moonmq/client"
 	"io/ioutil"
 	"net/http"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/siddontang/moonmq/client"
 )
 
 var testClientConfig = []byte(`

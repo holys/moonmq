@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/siddontang/moonmq/broker"
 	"io/ioutil"
+
+	"github.com/siddontang/moonmq/broker"
 )
 
 var configFile = flag.String("config", "", "config file")

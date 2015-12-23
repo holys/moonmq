@@ -2,12 +2,13 @@ package client
 
 import (
 	"fmt"
-	"github.com/siddontang/moonmq/proto"
 	"net"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/siddontang/moonmq/proto"
 )
 
 type Conn struct {

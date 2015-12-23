@@ -3,8 +3,9 @@ package broker
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/garyburd/redigo/redis"
 	"strings"
+
+	"github.com/garyburd/redigo/redis"
 )
 
 type RedisStoreConfig struct {

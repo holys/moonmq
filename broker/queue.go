@@ -3,9 +3,10 @@ package broker
 import (
 	"container/list"
 	"fmt"
-	"github.com/siddontang/moonmq/proto"
 	"sync"
 	"time"
+
+	"github.com/siddontang/moonmq/proto"
 )
 
 /*

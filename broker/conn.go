@@ -2,13 +2,14 @@ package broker
 
 import (
 	"fmt"
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/moonmq/proto"
 	"io"
 	"net"
 	"runtime"
 	"sync"
 	"time"
+
+	"github.com/siddontang/go-log/log"
+	"github.com/siddontang/moonmq/proto"
 )
 
 type conn struct {

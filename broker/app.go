@@ -2,10 +2,11 @@ package broker
 
 import (
 	"encoding/json"
-	"github.com/garyburd/redigo/redis"
 	"net"
 	"net/http"
 	"strings"
+
+	"github.com/garyburd/redigo/redis"
 )
 
 type App struct {
